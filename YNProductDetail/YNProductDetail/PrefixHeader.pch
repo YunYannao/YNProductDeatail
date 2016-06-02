@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  YNProductDetail
+//
+//  Created by 员延孬 on 16/6/2.
+//  Copyright © 2016年 路之遥网络科技有限公司. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define DebugLog(s, ...) NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+#define  loadFailImg [UIImage imageNamed:@"loading_fail_img"]
+
+#define Screen_Bounds [UIScreen mainScreen].bounds
+#define Screen_Height [UIScreen mainScreen].bounds.size.height
+#define Screen_Width [UIScreen mainScreen].bounds.size.width
+
+#define BottomH 44.0
+#define TopTabBarH 44.0
+#define NaviBarH 64.0
+#define Color(r,g,b,al) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:al]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
