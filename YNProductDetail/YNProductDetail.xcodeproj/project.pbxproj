@@ -11,11 +11,9 @@
 		F57E45021D004320004BF70F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57E45011D004320004BF70F /* Images.xcassets */; };
 		F57E45041D0046C9004BF70F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F57E45031D0046C9004BF70F /* Default-568h@2x.png */; };
 		F57E45131D004976004BF70F /* BuyBotomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E45071D004976004BF70F /* BuyBotomView.m */; };
-		F57E45141D004976004BF70F /* FirstPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E45091D004976004BF70F /* FirstPageView.m */; };
 		F57E45151D004976004BF70F /* LoadMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E450B1D004976004BF70F /* LoadMoreView.m */; };
 		F57E45161D004976004BF70F /* LoadMoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E450C1D004976004BF70F /* LoadMoreView.xib */; };
 		F57E45171D004976004BF70F /* SecondPageTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E450E1D004976004BF70F /* SecondPageTopBar.m */; };
-		F57E45181D004976004BF70F /* SecondPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E45101D004976004BF70F /* SecondPageView.m */; };
 		F57E45191D004976004BF70F /* TopBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E45121D004976004BF70F /* TopBarButton.m */; };
 		F57E452B1D0049D8004BF70F /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E451D1D0049D8004BF70F /* TAAbstractDotView.m */; };
 		F57E452C1D0049D8004BF70F /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E451F1D0049D8004BF70F /* TAAnimatedDotView.m */; };
@@ -45,6 +43,9 @@
 		F580A2421D003A2500FD8DDF /* YNProductDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F580A2411D003A2500FD8DDF /* YNProductDetailTests.m */; };
 		F580A24D1D003A2500FD8DDF /* YNProductDetailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F580A24C1D003A2500FD8DDF /* YNProductDetailUITests.m */; };
 		F580A25D1D003AAF00FD8DDF /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F580A25C1D003AAF00FD8DDF /* ProductDetailViewController.m */; };
+		F5850BDA1D014FE4000327E4 /* tbmirror_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5850BD91D014FE4000327E4 /* tbmirror_share@2x.png */; };
+		F5850BDC1D01509D000327E4 /* lf_tabbar_cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5850BDB1D01509D000327E4 /* lf_tabbar_cart@2x.png */; };
+		F5850BDE1D0150A4000327E4 /* lf_tabbar_cart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5850BDD1D0150A4000327E4 /* lf_tabbar_cart@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,15 +73,11 @@
 		F57E45031D0046C9004BF70F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F57E45061D004976004BF70F /* BuyBotomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyBotomView.h; sourceTree = "<group>"; };
 		F57E45071D004976004BF70F /* BuyBotomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyBotomView.m; sourceTree = "<group>"; };
-		F57E45081D004976004BF70F /* FirstPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageView.h; sourceTree = "<group>"; };
-		F57E45091D004976004BF70F /* FirstPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageView.m; sourceTree = "<group>"; };
 		F57E450A1D004976004BF70F /* LoadMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreView.h; sourceTree = "<group>"; };
 		F57E450B1D004976004BF70F /* LoadMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreView.m; sourceTree = "<group>"; };
 		F57E450C1D004976004BF70F /* LoadMoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadMoreView.xib; sourceTree = "<group>"; };
 		F57E450D1D004976004BF70F /* SecondPageTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPageTopBar.h; sourceTree = "<group>"; };
 		F57E450E1D004976004BF70F /* SecondPageTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPageTopBar.m; sourceTree = "<group>"; };
-		F57E450F1D004976004BF70F /* SecondPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPageView.h; sourceTree = "<group>"; };
-		F57E45101D004976004BF70F /* SecondPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPageView.m; sourceTree = "<group>"; };
 		F57E45111D004976004BF70F /* TopBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarButton.h; sourceTree = "<group>"; };
 		F57E45121D004976004BF70F /* TopBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarButton.m; sourceTree = "<group>"; };
 		F57E451C1D0049D8004BF70F /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
@@ -128,6 +125,9 @@
 		F580A25B1D003AAF00FD8DDF /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
 		F580A25C1D003AAF00FD8DDF /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
 		F580A25E1D003B2D00FD8DDF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F5850BD91D014FE4000327E4 /* tbmirror_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tbmirror_share@2x.png"; sourceTree = "<group>"; };
+		F5850BDB1D01509D000327E4 /* lf_tabbar_cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lf_tabbar_cart@2x.png"; sourceTree = "<group>"; };
+		F5850BDD1D0150A4000327E4 /* lf_tabbar_cart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lf_tabbar_cart@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,15 +178,11 @@
 			children = (
 				F57E45061D004976004BF70F /* BuyBotomView.h */,
 				F57E45071D004976004BF70F /* BuyBotomView.m */,
-				F57E45081D004976004BF70F /* FirstPageView.h */,
-				F57E45091D004976004BF70F /* FirstPageView.m */,
 				F57E450A1D004976004BF70F /* LoadMoreView.h */,
 				F57E450B1D004976004BF70F /* LoadMoreView.m */,
 				F57E450C1D004976004BF70F /* LoadMoreView.xib */,
 				F57E450D1D004976004BF70F /* SecondPageTopBar.h */,
 				F57E450E1D004976004BF70F /* SecondPageTopBar.m */,
-				F57E450F1D004976004BF70F /* SecondPageView.h */,
-				F57E45101D004976004BF70F /* SecondPageView.m */,
 				F57E45111D004976004BF70F /* TopBarButton.h */,
 				F57E45121D004976004BF70F /* TopBarButton.m */,
 			);
@@ -234,6 +230,9 @@
 		F57E45321D004B83004BF70F /* sources */ = {
 			isa = PBXGroup;
 			children = (
+				F5850BDD1D0150A4000327E4 /* lf_tabbar_cart@3x.png */,
+				F5850BDB1D01509D000327E4 /* lf_tabbar_cart@2x.png */,
+				F5850BD91D014FE4000327E4 /* tbmirror_share@2x.png */,
 				F57E45471D004BC4004BF70F /* up_arrow@2x.png */,
 				F57E45491D004BC7004BF70F /* up_arrow@3x.png */,
 				F57E45331D004B83004BF70F /* lf_arrow_left@2x.png */,
@@ -432,6 +431,7 @@
 				F57E45411D004B83004BF70F /* LLIconMeStore@3x.png in Resources */,
 				F57E453D1D004B83004BF70F /* lf_arrow_left@2x.png in Resources */,
 				F57E45401D004B83004BF70F /* lf_tabbar_cart_selected@3x.png in Resources */,
+				F5850BDC1D01509D000327E4 /* lf_tabbar_cart@2x.png in Resources */,
 				F57E45461D004B83004BF70F /* tmall_search_collection_press_new@2x.png in Resources */,
 				F57E45431D004B83004BF70F /* srp_scroll_2_top_btn@2x.png in Resources */,
 				F580A2371D003A2500FD8DDF /* LaunchScreen.storyboard in Resources */,
@@ -440,11 +440,13 @@
 				F57E45021D004320004BF70F /* Images.xcassets in Resources */,
 				F57E45451D004B83004BF70F /* tmall_search_collection_normal_new@2x.png in Resources */,
 				F57E45421D004B83004BF70F /* loading_fail_img.png in Resources */,
+				F5850BDA1D014FE4000327E4 /* tbmirror_share@2x.png in Resources */,
 				F57E454A1D004BC7004BF70F /* up_arrow@3x.png in Resources */,
 				F57E45441D004B83004BF70F /* tb_icon_navibar_wangwang_normal@2x.png in Resources */,
 				F580A2341D003A2500FD8DDF /* Assets.xcassets in Resources */,
 				F57E45041D0046C9004BF70F /* Default-568h@2x.png in Resources */,
 				F580A2321D003A2400FD8DDF /* Main.storyboard in Resources */,
+				F5850BDE1D0150A4000327E4 /* lf_tabbar_cart@3x.png in Resources */,
 				F57E45481D004BC4004BF70F /* up_arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,7 +526,6 @@
 				F57E45151D004976004BF70F /* LoadMoreView.m in Sources */,
 				F57E452B1D0049D8004BF70F /* TAAbstractDotView.m in Sources */,
 				F580A22C1D003A2400FD8DDF /* AppDelegate.m in Sources */,
-				F57E45141D004976004BF70F /* FirstPageView.m in Sources */,
 				F57E452E1D0049D8004BF70F /* TAPageControl.m in Sources */,
 				F57E452F1D0049D8004BF70F /* SDCollectionViewCell.m in Sources */,
 				F580A2291D003A2400FD8DDF /* main.m in Sources */,
@@ -532,7 +533,6 @@
 				F57E452C1D0049D8004BF70F /* TAAnimatedDotView.m in Sources */,
 				F57E45171D004976004BF70F /* SecondPageTopBar.m in Sources */,
 				F57E45131D004976004BF70F /* BuyBotomView.m in Sources */,
-				F57E45181D004976004BF70F /* SecondPageView.m in Sources */,
 				F57E45311D0049D8004BF70F /* UIView+SDExtension.m in Sources */,
 				F57E45301D0049D8004BF70F /* SDCycleScrollView.m in Sources */,
 			);

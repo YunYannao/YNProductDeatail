@@ -19,9 +19,9 @@
     [botomView addSubview:lineView];
 
     NSArray * btnCollerArr=@[[UIColor orangeColor],[UIColor redColor]];
-    NSArray * btnImgArr=@[@"tb_icon_navibar_wangwang_normal@2x",@"tmall_search_collection_normal_new@2x",@"LLIconMeStore@3x"];
+    NSArray * btnImgArr=@[@"tmall_search_collection_normal_new@2x",@"tbmirror_share@2x",@"lf_tabbar_cart@2x"];
     NSArray * btnTitleArr=@[@"加入购物车",@"立即购买"];
-    NSArray * labelTieleArr=@[@"客服",@"收藏",@"店铺"];
+    NSArray * labelTieleArr=@[@"关注",@"分享",@"购物车"];
     for (int i=0; i<5; i++) {
         if (i<=2) {
         UIButton * btn=[[UIButton alloc]initWithFrame:CGRectMake(i*BottomH+12, 5, 20, 20)];

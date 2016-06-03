@@ -156,11 +156,6 @@
     [self.NavBarView addSubview:backBtn];
     backBtn.tag=1;
     
-    UIButton * shareBton=[[UIButton alloc]initWithFrame:CGRectMake(Screen_Width-10-25, 32, 25, 25)];
-    [shareBton setImage:[UIImage imageNamed:@"lf_tabbar_cart_selected@2x"] forState:UIControlStateNormal];
-    [self.NavBarView addSubview:shareBton];
-    [shareBton addTarget:self action:@selector(navBarBtnAction:) forControlEvents:UIControlEventTouchUpInside];
-    shareBton.tag=2;
 }
 /**
  *  添加底部的购买 加入购物车 收藏等模块
@@ -195,19 +190,17 @@
             //上拖的时候改变导航栏背部的颜色
             CGFloat  fir_maxContentOffSet_Y=self.mainScrollView.contentSize.height-self.mainScrollView.frame.size.height;
             CGFloat  scal=scrollView.contentOffset.y/fir_maxContentOffSet_Y;
-            self.NavBarView.backgroundColor=[UIColor whiteColor];
-            self.NavBarView.alpha=scal;
+            self.NavBarView.backgroundColor=[UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:scal];
         }
     }
     if (scrollView.tag==200) {
         //在0-60之间 懒加载子控件，并且随拖动的幅度改变子控件的标题和alpha
         CGFloat  mininumContenOffSet_Y=0;
         CGFloat  maxContentOffSet_Y=-dragStrength;
+        self.secPageHeaderLabel.alpha=scrollView.contentOffset.y/maxContentOffSet_Y;
         if (scrollView.contentOffset.y>maxContentOffSet_Y&&scrollView.contentOffset.y<mininumContenOffSet_Y) {
             self.secPageHeaderLabel.text=@"下拉，回到宝贝详情";
             [self.view addSubview:self.secPageHeaderLabel];
-            self.secPageHeaderLabel.alpha=scrollView.contentOffset.y/maxContentOffSet_Y;
-            
         }
         if(scrollView.contentOffset.y<maxContentOffSet_Y){
             self.secPageHeaderLabel.text=@"释放，回到宝贝详情";
@@ -241,6 +234,7 @@
             [self.view bringSubviewToFront:self.botomView];
             
             [UIView animateWithDuration:0.5 delay:0.0 options:UIViewAnimationOptionLayoutSubviews animations:^{
+                self.secPageHeaderLabel.alpha=0;
                 self.topBar.frame=CGRectMake(0, Screen_Height, Screen_Width, TopTabBarH);
                 self.secScrollView.frame=CGRectMake(0, Screen_Height+TopTabBarH, Screen_Width, Screen_Height-NaviBarH-BottomH-TopTabBarH);
                 self.mainScrollView.frame=CGRectMake(0, 0, Screen_Width, Screen_Height-BottomH);
@@ -267,9 +261,6 @@
     if (sender.tag==1) {
         [self.navigationController popViewControllerAnimated:NO];
     }
-    if (sender.tag==2) {
-        DebugLog(@"分享");
-    }
 }
 #pragma mark---滚动到顶部
 -(void)backToTopView{
@@ -280,6 +271,7 @@
         self.secScrollView.frame=CGRectMake(0, Screen_Height+TopTabBarH, Screen_Width, Screen_Height-NaviBarH-BottomH-TopTabBarH);
         self.mainScrollView.contentOffset=CGPointMake(0, 0);
         self.mainScrollView.frame=CGRectMake(0, 0, Screen_Width, Screen_Height-BottomH);
+        self.secPageHeaderLabel.alpha=0;
     } completion:^(BOOL finished) {
         self.topBar.hidden=YES;
     }];

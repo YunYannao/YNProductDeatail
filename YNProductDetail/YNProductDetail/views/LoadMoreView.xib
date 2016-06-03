@@ -22,17 +22,17 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up_arrow@2x" translatesAutoresizingMaskIntoConstraints="NO" id="hDs-MN-SWi">
-                    <rect key="frame" x="193" y="295" width="17" height="10"/>
+                    <rect key="frame" x="200" y="297" width="10" height="7"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="17" id="axA-8V-o5y"/>
-                        <constraint firstAttribute="height" constant="10" id="uje-H9-hiy"/>
+                        <constraint firstAttribute="width" constant="10" id="axA-8V-o5y"/>
+                        <constraint firstAttribute="height" constant="7" id="uje-H9-hiy"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up_arrow@2x" translatesAutoresizingMaskIntoConstraints="NO" id="j58-on-206">
-                    <rect key="frame" x="390" y="295" width="17" height="10"/>
+                    <rect key="frame" x="390" y="297" width="10" height="7"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="17" id="7Dr-TN-j0n"/>
-                        <constraint firstAttribute="height" constant="10" id="ui7-3H-14d"/>
+                        <constraint firstAttribute="width" constant="10" id="7Dr-TN-j0n"/>
+                        <constraint firstAttribute="height" constant="7" id="ui7-3H-14d"/>
                     </constraints>
                 </imageView>
             </subviews>
