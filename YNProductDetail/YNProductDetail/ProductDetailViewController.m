@@ -59,6 +59,7 @@
         _mainScrollView = [[UIScrollView alloc] init];
         _mainScrollView.delegate = self;
         _mainScrollView.frame = CGRectMake(0.0, 0.0, Screen_Width, Screen_Height-BottomH);
+        _mainScrollView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0);
         _mainScrollView.pagingEnabled = NO;
         _mainScrollView.showsVerticalScrollIndicator = NO;
         _mainScrollView.tag =100;
@@ -184,7 +185,7 @@
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     if(scrollView.tag == 100){
         if(scrollView.contentOffset.y<0){
-            scrollView.contentOffset = CGPointMake(0, 0);//限制不能下拉
+            //scrollView.contentOffset = CGPointMake(0, 0);//限制不能下拉
         }
         if(scrollView.contentOffset.y>=0){
             //上拖的时候改变导航栏背部的颜色
